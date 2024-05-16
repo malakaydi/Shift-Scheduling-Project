@@ -5,7 +5,8 @@ In the dynamic and fast-paced environment of hospitals, efficient planning is pa
 This README file provides an overview of the project and other relevant information.
 
 
->>Features
+********************************************************Features:********************************************************
+
 Microservices architecture with gRPC, GraphQL, and REST and kafka
 CRUD operations for Employee, JobPlanning, and AlerteMsg microservices
 Communication between services using gRPC and RESTful APIs
@@ -13,7 +14,8 @@ GraphQL endpoint for flexible querying and data manipulation
 Kafka for message queuing and asynchronous communication between services
 MongoDB as the database for storing data
 
->>Technologies
+********************************************************Technologies:********************************************************
+
 Node.js
 gRPC
 GraphQL
