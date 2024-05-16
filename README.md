@@ -21,19 +21,19 @@ RESTful APIs
 MongoDB
 Kafka
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Getting Started>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
->>Prerequisites :
+>>Getting Started
+**Prerequisites :
 Node.js (version 16.14.0)
 npm (version 8.5.2)
 MongoDB (version 5.1.6)
 graphql (version 16.6.0)
 
->>Installation :
+**Installation :
 Clone the repository.
 Install the dependencies using npm:
 npm install
 
->>Usage :
+**Usage :
 **Start the microservices:
 Start all microservices and the gateway in this order :
 
@@ -63,7 +63,7 @@ API Gateway: Runs on port 3000
 To test the endpoint of REST use: Thunder or Postman
 To test by graphQL use: Apollo server with : http://localhost:3000/
 
->>API Endpoints :
+**API Endpoints :
 GET /employee: Retrieves all employees from the database.
 GET /employee/:id: Retrieves a specific employee by its ID.
 POST /employee/add: Creates a new employee in the database.
