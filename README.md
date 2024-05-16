@@ -79,7 +79,9 @@ POST /alerteMsg/send: Sends an alert message to a recipient.
 PUT /alerteMsg/update/:id: Updates a specific alert message by its ID.
 
 ********************************************************Database:********************************************************
+
 The project uses MongoDB as the database system. You can set up MongoDB locally or use a cloud-based MongoDB service. Make sure to update the database connection configuration in the project files accordingly.
 
-********************************************************Contributing********************************************************
+********************************************************Contributing:********************************************************
+
 Contributions are welcome! If you find any issues or have suggestions for improvement, please submit an issue or a pull request. For major changes, please open an issue first to discuss potential changes.
