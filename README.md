@@ -1,4 +1,4 @@
-# Shift Scheduling Project
+# Shift Scheduling Project 🏥👩‍⚕️
 
 In the dynamic and fast-paced environment of hospitals, efficient planning is paramount, especially when it comes to scheduling staff for various shifts. **Shift Schedule Microservice** offers a robust solution tailored to the unique challenges faced by healthcare institutions. Designed with Node.js, gRPC, GraphQL, and REST, and enhanced with Kafka for seamless communication, this microservices-based application empowers hospitals to streamline their scheduling processes effectively. It consists of three microservices: Employee, JobPlanning, and AlerteMsg.
 
