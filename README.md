@@ -64,11 +64,14 @@ The microservices should now be running, and you can access them using the provi
 ### Start Zookeeper and Kafka Server
 To start Zookeeper, navigate to the Kafka installation directory and run the following command in a terminal or command prompt:
 ```bash
-./bin/windows/zookeeper-server-start.bat config/zookeeper.properties
+cd C:\Kafka
+```
+```bash
+bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 ```
 After starting Zookeeper, you can start the Kafka server by running the following command in a separate terminal or command prompt window:
 ```bash
-./bin/windows/kafka-server-start.bat config/server.properties
+bin\windows\kafka-server-start.bat config\server.properties
 ```
 ## Running Services
 - **Employee Service:** Runs on port '50053'
